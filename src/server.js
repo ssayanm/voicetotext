@@ -33,7 +33,9 @@ app.use("/api/", limiter);
 const secure = require("express-secure-only");
 app.use(secure());
 app.use(express.static(__dirname + "/static"));
+
 app.use(cors());
+app.options("*", cors());
 
 const sttAuthenticator = new IamAuthenticator({
   apikey: "process.env.SPEECH_TO_TEXT_IAM_APIKEY",
