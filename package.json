@@ -11,7 +11,7 @@
     "ibm-watson": "^5.4.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "vcap_services": "^0.7.1",
     "watson-developer-cloud": "^4.0.1",
     "watson-speech": "^0.38.0"
